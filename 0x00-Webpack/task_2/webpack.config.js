@@ -15,8 +15,8 @@ module.exports = {
   entry: {
     main: path.resolve(__dirname, './js/dashboard_main.js'),
   },
-  output: {
-    filename: 'bundle.js',
+    output: {
     path: path.resolve(__dirname, 'public'),
-  },
+    filename: 'bundle.js',
+  }
 };
