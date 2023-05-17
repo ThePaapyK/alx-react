@@ -10,7 +10,7 @@ module.exports = {
       test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
       type: 'asset/resource'
     }
-  ]
+  ],
   mode: 'production',
   entry: {
     main: path.resolve(__dirname, './js/dashboard_main.js'),
