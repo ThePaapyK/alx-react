@@ -1,5 +1,5 @@
-import $ from jquery;
-import _ from lodash;
+import $ from "jquery";
+import _ from "lodash";
 
 $('body').append('<div id="logo"></div>');
 $('body').append('<p>Holberton Dashboard</p>');
@@ -10,7 +10,7 @@ $('body').append('<p>Copyright - Holberton School</p>');
 
 let count = 0;
 
-funtion updateCounter() {
+function updateCounter() {
 	count++;
 	$('#count').html(`${count} clicks on the button`);
 }
