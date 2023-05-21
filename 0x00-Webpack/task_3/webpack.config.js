@@ -26,10 +26,13 @@ module.exports = {
   ],
   output: {
     path: path.resolve(__dirname, './public'),
-    filename: '[name].js',
+    filename: '[name].bundle.js',
   },
   optimization: {
     runtimeChunk: 'single',
+    splitChunks: {
+      chunks: 'all',
+    },
   },
   module: {
     rules: [
