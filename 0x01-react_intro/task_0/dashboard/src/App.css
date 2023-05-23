@@ -1,0 +1,40 @@
+.App-header {
+  border-bottom: 5px solid red;
+  position: absolute;
+  height: 20px;
+  width: 100%
+}
+
+.App-logo {
+  position: relative;
+  height: 0.8rem;
+  width: 0.2rem;
+  padding-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-body {
+  padding-top: 10px
+}
+
+.App-footer {
+  border-top: 5px solid red;
+  justify-content: center;
+  height: 20px;
+  position: absolute;
+  }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
